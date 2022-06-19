@@ -1,0 +1,20 @@
+.fond-card{
+    border: none;
+    height: 100%;
+    .card-body{
+        padding: 20px;
+    }
+    .card-img-top{
+        aspect-ratio: 1 / 1;
+        object-position: center;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .card-title{
+        margin: 0;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

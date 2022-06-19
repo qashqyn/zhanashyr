@@ -1,0 +1,52 @@
+#sidebar{
+    background: #fff;
+    padding: 20px 30px;
+    .nav-link{
+        color: black;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px 0;
+        &:hover{
+            color: #e65639;
+        }
+    }
+    .dropdown{
+        position: initial;
+        button{
+            background: none;
+            color: inherit;
+            border: none;
+            color: black;
+            font-weight: 600;
+            font-size: 16px;
+            padding: 10px 0;
+            &:hover{
+                color: #e65639;
+            }
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        .dropdown-menu{
+            border: none;
+            padding: 0;
+            padding-left: 20px;
+            a{
+                padding: 5px 0;
+                color: inherit;
+                &:hover{
+                    color: #e65639;
+                    background: none;
+                }
+                &:focus, &:active, &:focus-visible{
+                    background: none;
+                    color: inherit;
+                    border: none;
+                    box-shadow: none;
+                }
+            }
+            transform: none!important;
+            position: initial!important;
+        }
+    }
+}

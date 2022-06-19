@@ -1,0 +1,78 @@
+#fonds{
+.search{
+        // margin: 0 auto;
+        width: 40%;
+        display: flex;
+        background-color: #fff;
+        border-radius: 5px;
+        input{
+            font-weight: 200;
+            background: none;
+            border: none;
+            padding: none;
+            margin: none;
+            border-radius: 0;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+        button{
+            background: none;
+            border: none;
+            color: #000000;
+            &:focus, &:hover{
+                color: #e65639;
+                background: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .filterBtn{
+        margin-left: auto;
+        cursor: pointer;
+    }
+    #filter{
+        display: none;
+        background: #fff;
+        padding: 40px 60px;
+        border-radius: 10px;
+        &.active{
+            display: block;
+        }
+
+        .check-options{
+            display: flex;
+            flex-wrap: wrap;
+            .form-check{
+                margin-bottom: 10px;
+            }
+        }
+
+        hr{
+            color:  #585757;
+            opacity: 1;
+        }
+
+        select{
+            border: 1px solid #D5D5D5;
+        }
+
+        button{
+            display: block;
+            margin: auto;
+            margin-top: 40px;
+            font-size: 1.2em;
+            color: #FFFFFF;
+            background: #D24D4D;
+            padding: 5px 20px;
+            border: none;
+            &:focus{
+                box-shadow: none;
+            }
+        }
+    }
+
+    .fonds{
+    }
+}

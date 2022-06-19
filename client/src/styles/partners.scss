@@ -1,0 +1,112 @@
+#partners{
+    .top{
+        overflow: hidden;
+        background: #D13924;
+        color: #fff;
+        height: calc(100vh - 85px);
+        display: flex;
+        .container{
+            margin: auto;
+            max-height: 100%;
+            height: 100%;
+        }
+        .d-flex{
+            height: 100%;
+            .content{
+                margin: auto;
+            }
+        }
+        h1{
+            margin-bottom: auto;
+            font-size: 32px;
+            font-style: italic;
+            font-weight: 400;
+            margin-bottom: 60px;
+            strong{
+                font-weight: 900;
+                font-style: italic;
+            }
+        }
+        p{
+            font-weight: 400;
+            font-style: italic;
+            font-size: 24px;
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    #scrollspy{
+        position: relative;
+        #navspy{
+            // position: fixed;
+            position:sticky;
+            top:0;
+            display: block;
+            padding: 10px 0;
+            border-bottom: 1px solid #959595;
+            background: #fff;
+            color: #000;
+            .navbar-nav{
+                width: 100%;
+                a{
+                    display: block;
+                    flex-grow: 1;
+                    &.active{
+                        color: #DD3F3F!important;
+                    }
+                }
+            }
+            // position: -webkit-sticky;
+        }
+
+        #partnerships{
+            ul{
+                li{
+                    list-style-type: decimal-leading-zero;
+                    margin: 10px 0;
+                    h6{
+                        font-size: 1.2em;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        #application{
+            form{
+                border: 4px solid #9E8787;
+                padding: 40px 80px;
+
+                .heading{
+                    border-bottom: 2px solid #E6E6E6;
+                    p{
+                        color: #535353; 
+                    }
+                }
+                .form-group{
+                    margin: 10px 0 20px;
+                    input, textarea{
+                        border-color: #000;
+                        border-radius: 0;
+                    }
+                }
+                .form-check-label{
+                    color: #959595;
+                }
+                button{
+                    margin-top: 10px;
+                    display: block;
+                    width: 100%;
+                    background: #DD3F3F;
+                    border: none;
+                    border-radius: 0;
+                    padding: 10px 0;
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }
+}

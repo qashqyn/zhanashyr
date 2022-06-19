@@ -1,0 +1,96 @@
+#add-event{
+    padding: 40px 0;
+    form{
+        width: 70%;
+        margin: auto;
+        background-color: white;
+        padding: 60px;
+        .form-group{
+            display: flex;
+            margin-bottom: 40px;
+            .form-label{
+                font-weight: 600;
+                width: 30%;
+                padding-right: 20px;
+            }
+            .fond{
+                flex-grow: 1;
+                padding: 20px;
+                border: 1px solid #e6e6e6;
+                display: flex;
+                align-items: center;
+                img{
+                    margin-right: 20px;
+                    height: 70px;
+                    width: 90px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+            .input{
+                flex-grow: 1;
+                .form-control~label{
+                    margin-top: 10px;
+                }
+
+                .image-preview{
+                    width: 480px;
+                    height: 200px;
+                    overflow: hidden;
+                    margin-bottom: 10px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+
+                label{
+                    gap: 20px;
+                    display: flex;
+                }
+                #chooseimg{
+                    cursor: pointer;
+                    border-radius: 0;
+                    margin-left: auto;
+                    display: inline-block;
+                    white-space: nowrap;
+                    text-align: center;
+                    padding: 10px 16px;
+                    font-weight: 500;
+                    font-size: 16px;
+                    text-decoration: none;
+                    border: 1px solid #e65639;
+                    &:hover{
+                        background-color: #e65639;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .bottom{
+            display: flex;
+            background-color: #302f2d;
+            margin: -60px;
+            margin-top: 60px;
+            padding: 40px 60px;
+            // width: ;
+            .btn{
+                border-radius: 0;
+                margin-left: auto;
+                display: block;
+                background-color: #e65639;
+                color: #fff;
+                display: block;
+                white-space: nowrap;
+                text-align: center;
+                padding: 16px 20px;
+                font-weight: 500;
+                font-size: 16px;
+                text-decoration: none;
+                border: none;
+            }
+        }
+    }
+}

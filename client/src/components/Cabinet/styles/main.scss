@@ -1,0 +1,14 @@
+#cabinet{
+    .icon{
+        padding: 10px;
+        background-color: #f9f7f6;
+        margin-bottom: auto;
+        margin-right: 20px;
+        border-radius: 5px;
+    }
+    display: flex;
+    &>.content{
+        flex-grow: 1;
+        padding: 20px;
+    }
+}
